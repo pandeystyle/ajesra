@@ -1,0 +1,371 @@
+/* Slider our specility */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+.container{
+    margin: 0 20px;
+    padding: 0 20px;
+}
+.all{
+    display: flex;
+}
+.cl-1{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+/*our work*/
+.cl-2{
+    height: 500px;
+    width: 400px;
+    margin: 20px;
+}
+
+/*Main Body*/
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+/*  background-image: url("images/Website-design.gif");*/
+  min-height: 100%;
+}
+   
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+    .btn-color-192730 {
+    color: #ffffff !important;
+    background-color: #a28053 !important;
+    border-color: #a28053 !important;
+}
+    
+/*    grid container*/
+    .left{
+        padding: 5px;
+  font-size: 10px;
+  text-align: left;
+    color: #ab844d;
+    }
+    .row{
+padding: 5px;
+  font-size: 10px;
+  text-align: left;
+    color: #ab844d;
+    }
+.grid-container {
+  display: table;
+  grid-template-columns: auto auto auto AUTO;
+padding: 5px;
+    
+}
+.grid-item {
+
+   
+  padding: 5px;
+  font-size: 20px;
+  text-align: left;
+    color: #ab844d;
+}
+    .text{
+         color: #ab844d;
+    }
+    a{
+        color: #ab844d;
+        text-decoration: none;
+    }
+.el-text {
+    clear: both;
+}
+.heading-text.el-text > :last-child {
+    margin-bottom: 0 !important;
+}
+.heading-text.el-text > :first-child {
+    margin-top: 0 !important;
+    display: inline-block;
+}
+.heading-text h4 {
+    color: #565657 !important;
+    font-size: 15px !important;
+    text-transform: uppercase !important;
+}
+.fontheight-524109 {
+    line-height: 1.75;
+}
+.text-color-xsdn-color {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+}
+.font-weight-300, .font-weight-300 :not(strong):not(b), .btn-custom-typo.font-weight-300 {
+    font-weight: 300 !important;
+}
+h1, h2, h3, h4, h5, h6, h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+    font-family: 'Muli', sans-serif !important;
+    font-weight: 700;
+}
+::after {
+    box-sizing: border-box;
+}
+.fontheight-524109 {
+    line-height: 1.75;
+}
+heading-text h4 span {
+    font-weight: 600 !important;
+}
+.heading-text h4::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 1px;
+    background: #a28053;
+    margin-top: 10px;
+}
+    #slider, ul
+{
+	height: 200px;
+}
+
+#slider
+{
+	margin: auto;
+	overflow: hidden;
+	padding: 20px;
+	margin-top: 50px;
+	position: relative;
+	width: 600px;
+}
+
+#slider li
+{
+	float: left;
+	position: relative;
+	width: 600px;
+	display: inline-block;
+	height: 200px;
+}
+
+#slider ul
+{
+	list-style: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 9000px;
+	transition: left .2s linear;
+	-moz-transition: left .2s linear;
+	-o-transition: left .2s linear;
+	-webkit-transition: left .2s linear;
+	margin-left: -25px;
+  font-family: open sans;
+  color: #666;
+}
+
+/*** Content ***/
+
+.slider-container
+{
+  color:#000;
+	margin: 0 auto;
+	padding: 0;
+	width: 550px;
+  min-height: 180px;
+  text-align:center;
+}
+
+.slider-container h2
+{
+ 	color: #fff;
+}
+
+.slider-container  p
+{
+	margin: 10px 25px;
+	font-weight: semi-bold;
+	line-height: 150%;
+}
+
+/*** target hooks ****/
+
+@-webkit-keyframes slide-animation {
+	0% {opacity:0;}
+	2% {opacity:1;}
+	20% {left:0px; opacity:1;}
+	22.5% {opacity:0.6;}
+	25% {left:-600px; opacity:1;}
+	45% {left:-600px; opacity:1;}
+	47.5% {opacity:0.6;}
+	50% {left:-1200px; opacity:1;}
+	70% {left:-1200px; opacity:1;}
+	72.5% {opacity:0.6;}
+	75% {left:-1800px; opacity:1;}
+	95% {opacity:1;}
+	98% {left:-1800px; opacity:0;} 
+	100% {left:0px; opacity:0;}
+}
+
+#slider ul
+{
+	-webkit-animation: slide-animation 20s infinite;
+}
+
+#slider ul:hover
+{
+	-moz-animation-play-state: paused;
+	-webkit-animation-play-state: paused;
+}
+/*owl carousel*/
+.carousel-wrap {
+  margin: 90px auto;
+  padding: 0 5%;
+  width: 80%;
+  position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100; 
+  -webkit-backface-visibility: hidden; 
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
